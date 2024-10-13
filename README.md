@@ -1,12 +1,36 @@
 # RLCode3
 
 
+# Structure du projet
+
+```
+q_learning_demo/
+│
+├── QLearning/
+│   └── QLearning.py
+│
+├── helpers/
+│   └── helpers.py
+│
+├── resources/
+│
+└── main.py
+```
+
+
+
 ## 1. Ouvrez l'invite de commande (Command Prompt) en tant qu'administrateur.
 
 ## 2. Naviguez vers le dossier où vous voulez créer votre projet. Par exemple :
    ```
    cd C:\Users\haythem\Documents
    ```
+
+
+```bash
+mkdir -p q_learning_demo/QLearning q_learning_demo/helpers q_learning_demo/resources
+```
+
 
 ## 3. Créez la structure de dossiers avec ces commandes :
    ```
